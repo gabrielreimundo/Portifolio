@@ -230,3 +230,32 @@ span{
     font-size: 13px;
     line-height: 20px;
 }
+/*--------contato--------*/
+.contatos{
+    width: 100vw;
+    height: 50vh;
+    background-color: #23232e;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.contatos div{
+    text-align: center;
+    line-height: 40px;
+    color: #cbcbd6;
+}
+.contatos div h1{
+    font-size:2rem;
+}
+.contatos > a{
+    width: 25rem;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+}
+.icons{
+    
+}
