@@ -198,6 +198,7 @@ span{
     height: 100vh;
     background: url('bg.jpg') no-repeat center center;
     background-attachment: fixed;
+    background-size:cover ;
 }
 .projetofundo{
     width: 100vw;
