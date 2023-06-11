@@ -169,7 +169,7 @@ span{
     height: 100vh;
     background-color: #23232e;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: start;
     padding: 10rem;
 }
