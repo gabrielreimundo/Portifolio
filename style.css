@@ -375,4 +375,124 @@ footer{
         font-size: 14px;
     }
 }
-@media screen and (max-width: 992px) {}
+@media screen and (max-width: 992px) {
+    .inicio h1{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    .inicio p{
+        font-size: 12px;
+    }
+    .inicio .btns{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sobre{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .sobre img{
+        width: 12rem;
+        border: 10px solid #23232e;
+        transform: translateY(-70px);
+    }
+    .sobre div{
+        transform: translateY(-40px);
+    }
+    .sobre div h1{
+        display: none;
+    }
+    .sobre div p{
+        color: #fff;
+        font-size: 16px;
+        line-height: 20px;
+        
+    }
+    .sobre div{
+        width: 20rem;
+        margin-left: 10px;
+   
+    }
+    .tecnologias{
+        margin-top: 100px;
+    }
+    
+    .tecnologias>div>i{
+        font-size: 1rem;
+        margin-left: 10px;
+        transform: translateY(70px);
+    }
+
+    .projetofundo{
+        width: 100vw;
+        height: 100vh;
+        background-color: #23232eb4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .projetofundo h1{
+        font-size: 1.5rem;
+    }
+    .caixaProjetos{
+        width: 100vw;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+    .caixaProjetos>:nth-child(2){
+        height: 10rem;
+    }
+    .projeto{
+        width: 20rem;
+        height: 10rem;
+        margin: 10px;
+        display: flex;
+        padding: 2px;
+        justify-content: center;
+        align-items: center;
+    }
+    .projeto img{
+        width: 159px;
+        height: 159px;
+        border-radius: 20px 0px 0px 20px;
+    }
+    .descrição{
+        font-size: 11px;
+        line-height: 20px;
+        width: 150px;
+    }
+
+    .contatos{
+        width: 100vw;
+        height: 50vh;
+        background-color: #23232e;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .contatos div{
+        line-height: 30px;
+        font-size: 14px;
+    }
+    .contatos div h1{
+        font-size:1.5rem;
+    }
+    .contatos a{
+        width: 15rem;
+    }
+    footer{
+        font-size: 11px;
+    }
+    
+}
