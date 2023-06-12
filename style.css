@@ -320,3 +320,58 @@ footer{
     padding: 10px;
     text-align: center;
 }
+
+@media screen and (max-width:1200px){
+    .inicio h1{
+        font-size: 3rem;
+    }
+    .inicio .btns a {
+        width: 10rem;
+    }
+    .sobre img{
+        width: 12rem;
+    }
+    .sobre div p{
+        font-size: 14px;
+    }
+    .sobre div{
+        width: 40rem;
+    }
+    .tecnologias{
+        color: white;
+    }
+    
+    .tecnologias>div>i{
+        font-size: 2rem;
+    }
+    .curriculo{
+        transform: translateY(40px);
+    }
+    .projetofundo h1{
+        font-size: 1.5rem;
+    }
+    .projeto{
+        width: 16rem;
+        height: 26rem;
+        margin: 5px;
+    }
+    .caixaProjetos>:nth-child(2){
+        height: 27rem;
+    }
+    .projeto img{
+        width: 16rem;
+    }
+    .projeto:hover{
+        transform:translate(-3px, -3px);
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+        transition: transform 0.3s, border 0.5s;
+    }
+    .descrição{
+        color: #cbcbd6;
+        font-size: 11px;
+        line-height: 20px;
+    }
+    .caixaProjetos>:nth-child(2) .descrição{
+        font-size: 14px;
+    }
+}
