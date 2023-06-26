@@ -494,5 +494,11 @@ footer{
     footer{
         font-size: 11px;
     }
+    .email{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: #1bd741;
+    }
     
 }
