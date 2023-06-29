@@ -253,14 +253,16 @@ span{
     margin: 10px;
     border-radius: 20px;
     text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
 }
 .projeto img{
     width: 20rem;
     border-radius: 20px 20px 0px 0px;
+    
 }
 .projeto:hover{
     transform:translate(-3px, -3px);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+    box-shadow: none;
     transition: transform 0.3s, border 0.5s;
 }
 .descrição{
@@ -271,7 +273,7 @@ span{
 /*--------contato--------*/
 .contatos{
     width: 100vw;
-    height: 50vh;
+    height: 100vh;
     background-color: #23232e;
     display: flex;
     align-items: center;
@@ -312,6 +314,37 @@ span{
     transform:translate(-3px, -3px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
     transition: transform 0.3s, border 0.5s;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    align-items: center;
+}
+form input {
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    width: 100%;
+}
+form label {
+    color: white;
+    padding: 5px;
+    width: 100%;
+}
+form textarea{
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    width: 100%;
+}
+form button{
+    width: 400px;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
 }
 /*-------footer-----*/
 footer{
@@ -481,6 +514,7 @@ footer{
         justify-content: space-around;
         flex-direction: column;
     }
+   
     .contatos div{
         line-height: 30px;
         font-size: 14px;
@@ -494,11 +528,6 @@ footer{
     footer{
         font-size: 11px;
     }
-    .email{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        background-color: #1bd741;
-    }
+  
     
 }
