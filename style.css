@@ -537,6 +537,13 @@ footer{
         justify-content: center;
         align-items: center;
     }
+    .acesso{
+        width: 20rem;
+        height: 10rem;
+    }
+    .caixaProjetos>:nth-child(2)> .acesso{
+        height: 10rem;
+    }
     .projeto img{
         width: 159px;
         height: 159px;
@@ -550,7 +557,7 @@ footer{
 
     .contatos{
         width: 100vw;
-        height: 50vh;
+        height: 100vh;
         background-color: #23232e;
         display: flex;
         align-items: center;
@@ -571,6 +578,26 @@ footer{
     footer{
         font-size: 11px;
     }
-  
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        align-items: center;
+    }
+    form button{
+        width: 100px;
+        padding: 5px;
+        border: 2px solid white;
+        border-radius: 10px;
+        background: transparent;
+        color: white;
+    }
+    form button:hover{
+        background-color: #fff;
+        color: #23232e;
+        transform:translate(-1px, -1px);
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+        transition: transform 0.3s, border 0.5s;
+    }
     
 }
