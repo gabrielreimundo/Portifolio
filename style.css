@@ -347,6 +347,9 @@ form {
     flex-direction: column;
     width: 800px;
     align-items: center;
+    background-color: rgba(0, 0, 0, 0.233);
+    border-radius: 20px;
+    padding: 10px;
 }
 form input {
     border: none;
